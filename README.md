@@ -14,3 +14,9 @@
 YOUTUBE: [Check it Here](youtube.com/c/Assassiner354)
 
 DISCORD: A354-PH#3267
+
+# Planned Features
+
+- [ ] Member Management
+- [ ] More Features from SkyBlock by GiantQuartz
+- [ ] Support to RedSkyBlock ;)
