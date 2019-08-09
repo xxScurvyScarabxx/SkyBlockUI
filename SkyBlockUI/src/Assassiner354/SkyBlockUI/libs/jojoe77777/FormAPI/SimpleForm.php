@@ -1,9 +1,6 @@
 <?php
-
 declare(strict_types = 1);
-
 namespace Assassiner354\SkyBlockUI\libs\jojoe77777\FormAPI;
-
 class SimpleForm extends Form {
     const IMAGE_TYPE_PATH = 0;
     const IMAGE_TYPE_URL = 1;

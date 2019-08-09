@@ -3,7 +3,3 @@ main: Assassiner354\SkyBlockUI\Core
 version: 1.0.0-pre2
 api: [3.0.0]
 author: Assassiner354
-
-commands:
-  sbui:
-    description: SkyBlock UI

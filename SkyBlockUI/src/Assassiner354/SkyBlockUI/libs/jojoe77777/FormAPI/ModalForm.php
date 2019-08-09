@@ -4,7 +4,8 @@ declare(strict_types = 1);
 
 namespace Assassiner354\SkyBlockUI\libs\jojoe77777\FormAPI;
 
-class CustomForm extends Form {
+class ModalForm extends Form {
+
     private $labelMap = [];
     /**
      * @param callable|null $callable
