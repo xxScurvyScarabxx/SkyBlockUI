@@ -15,8 +15,10 @@ YOUTUBE: [Check it Here](youtube.com/c/Assassiner354)
 
 DISCORD: A354-PH#3267
 
-# Planned Features
+# Features
 
+- [x] Island Creation
+- [x] Island Management
+- [x] Help
 - [ ] Member Management
-- [ ] More Features from SkyBlock by GiantQuartz
-- [ ] Support to RedSkyBlock ;)
+- [ ] Invite Management
