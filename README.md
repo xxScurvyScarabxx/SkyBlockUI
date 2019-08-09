@@ -2,7 +2,6 @@
 ✅ Legit SkyBlockUI! Exclusively for PocketMine-MP!
 
 [![](https://poggit.pmmp.io/shield.state/SkyBlockUI)](https://poggit.pmmp.io/p/SkyBlockUI)
-<a href="https://poggit.pmmp.io/p/SkyBlockUI"><img src="https://poggit.pmmp.io/shield.state/SkyBlockUI"></a>
 
 # Installation
 
