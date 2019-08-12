@@ -22,5 +22,5 @@ DISCORD: A354-PH#3267
 - [x] Island Creation
 - [x] Island Management
 - [x] Help
+- [x] Invite Management
 - [ ] Member Management
-- [ ] Invite Management
