@@ -33,8 +33,7 @@ class Functions {
                     $this->SBManage($sender);
                     break;
                 case 3:
-                    //$this->MemberManage($sender);
-                    $sender->sendMessage("§c§l» §r§7Coming soon!");
+                    $this->memberManage($sender);
                     break;
                 case 4:
                     $this->inviteMenu($sender);
@@ -118,6 +117,31 @@ class Functions {
         $form->addButton("§8Join Island\n§d§l»§r §8Tap to select!", 1);
         $form->addButton("§8Disband Island\n§d§l»§r §8Tap to select!", 2);
         $form->addButton("§8Lock Island\n§d§l»§r §8Tap to select!", 3);
+        $form->sendToPlayer($sender);
+    }
+
+    public function memberManage(Player $sender) {
+        $form = new SimpleForm(function (Player $sender, $data){
+            $result = $data;
+            if ($result == null) {
+            }
+            switch ($result) {
+                case 0:
+                    $this->sbUI($sender);
+                    break;
+                case 1:
+                    $this->memberAdd($sender);
+                    break;
+                case 2:
+                    $this->memberRem($sender);
+                    break;
+            }
+        });
+        $form->setTitle("§lMEMBER MANAGEMENT");
+        $form->setContent("§fManage your island members!");
+        $form->addButton("§cBack", 0);
+        $form->addButton("§8Add Member\n§d§l»§r §8Tap to select!", 1);
+        $form->addButton("§8Remove Member\n§d§l»§r §8Tap to select!", 2);
         $form->sendToPlayer($sender);
     }
 

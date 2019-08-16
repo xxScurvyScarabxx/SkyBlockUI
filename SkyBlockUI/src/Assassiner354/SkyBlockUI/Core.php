@@ -39,14 +39,6 @@ class Core extends PluginBase {
 	    $this->functions = new Functions($this);
 	    $this->registerCommands();
 
-		#Dependency Check!
-		#Checks if SkyBlock is enabled on the server!
-		$sb = $this->getServer()->getPluginManager()->getPlugin("SkyBlock");
-		if(is_null($sb)) {
-			$this->getLogger()->notice("Please install SkyBlock by GiantQuartz to use this plugin!");
-			$this->getServer()->shutdown();
-		}
-
 		#DO NOT EDIT!
 		if($this->getDescription()->getAuthors()[0] !== "Assassiner354" || $this->getDescription()->getName() !== "SkyBlockUI"){
 			$this->getLogger()->notice("Fatal error! Illegal modification/use of SkyBlockUI by Assassiner354 (@RealA354)!");

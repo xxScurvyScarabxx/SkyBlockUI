@@ -1,6 +1,8 @@
 # SkyBlockUI
 ✅ Legit SkyBlockUI! Exclusively for PocketMine-MP!
 
+[![](https://poggit.pmmp.io/shield.state/SkyBlockUI)](https://poggit.pmmp.io/p/SkyBlockUI)
+
 # Installation
 
 - To install the plugin download the .phar.
@@ -20,5 +22,5 @@ DISCORD: A354-PH#3267
 - [x] Island Creation
 - [x] Island Management
 - [x] Help
-- [ ] Member Management
-- [ ] Invite Management
+- [x] Invite Management
+- [x] Member Management
