@@ -11,12 +11,6 @@
 
 - Start your server!
 
-# Social
-
-YOUTUBE: [Check it Here](youtube.com/c/TheRealKizu)
-
-DISCORD: TheRealKizu#3267
-
 # Features
 
 - [x] Island Creation
