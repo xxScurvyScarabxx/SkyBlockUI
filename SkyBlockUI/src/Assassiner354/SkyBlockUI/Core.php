@@ -47,7 +47,7 @@ class Core extends PluginBase {
 	}
 
 	public function registerCommands() : void{
-        $this->getServer()->getCommandMap()->registerAll("SkyBlockUI", [
+        $this->getServer()->getCommandMap()->registerAll("is", [
             new SkyBlockUICommand($this),
         ]);
     }
